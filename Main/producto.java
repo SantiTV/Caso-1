@@ -16,6 +16,7 @@ public class producto {
 
     public void imprimir (){
         System.out.print( String.valueOf(id) + color + mensaje );
+        System.out.print("estan en el buffer");
     }
 
 /*  public void run (){
